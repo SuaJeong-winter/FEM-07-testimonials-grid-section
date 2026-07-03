@@ -23,12 +23,14 @@
 
 body {
   background-color: var(--Grey10);
-  display: row;
   place-items: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .grid__cards {
-  margin: 2rem 0;
+  display: display;
+  grid-template-columns: 1fr;
+  gap: 1em;
 }
 
 .grid__card {
@@ -39,6 +41,7 @@ body {
 
 /* comment */
 .comment {
+  position: relative;
   padding: 2rem;
   border-radius: 0.5rem;
   color: var(--White);
@@ -48,12 +51,30 @@ body {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .comment__profile--img {
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.quote__img {
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  width: 6rem;
+  z-index: 0;
+}
+
+.quote--title {
+  position: relative;
+  z-index: 1;
+}
+
+.comment__profile__info--graduate {
+  font-weight: 100;
 }
 
 .comment__text {
@@ -117,8 +138,6 @@ body {
     background-color: var(--Grey10);
     display: grid;
     place-items: center;
-    min-height: 100vh;
-    min-width: 100vh;
   }
 
   .grid__cards {
