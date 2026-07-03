@@ -23,20 +23,18 @@
 
 body {
   background-color: var(--Grey10);
-  display: grid;
+  display: row;
   place-items: center;
-  min-height: 100vh;
-  min-width: 100vh;
 }
 
 .grid__cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  margin: 2rem 0;
+}
 
-  column-gap: 1em;
-  row-gap: 1em;
-  padding: 6rem 6rem;
+.grid__card {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /* comment */
@@ -112,4 +110,30 @@ body {
   grid-row-end: 3;
   background-color: var(--White);
   color: var(--Black);
+}
+
+@media (min-width: 415px) {
+  body {
+    background-color: var(--Grey10);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+  }
+
+  .grid__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    column-gap: 1em;
+    row-gap: 1em;
+    padding: 6rem 6rem;
+  }
+
+  .grid__card {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
