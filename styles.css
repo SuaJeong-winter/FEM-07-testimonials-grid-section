@@ -21,17 +21,55 @@
   --Black: hsl(0, 0%, 7%);
 }
 
+body {
+  background-color: var(--Grey10);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
 .grid__cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
 
-  column-gap: 10px;
+  column-gap: 1em;
   row-gap: 1em;
+  padding: 6rem 6rem;
 }
 
+/* comment */
+.comment {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: var(--White);
+}
+
+.comment__profile {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comment__profile--img {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.comment__text {
+  display: inline-block;
+}
+
+.comment__text--title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* grid Element */
 .grid__card {
-  background-color: var(--Black);
+  background-color: var(--Grey10);
 }
 
 .card__one {
@@ -39,6 +77,7 @@
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  background-color: var(--Purple50);
 }
 
 .card__two {
@@ -46,6 +85,7 @@
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
+  background-color: var(--Grey50);
 }
 
 .card__three {
@@ -53,6 +93,8 @@
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
+  background-color: var(--White);
+  color: var(--Black);
 }
 
 .card__four {
@@ -60,6 +102,7 @@
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
+  background-color: var(--Black);
 }
 
 .card__five {
@@ -67,4 +110,6 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
+  background-color: var(--White);
+  color: var(--Black);
 }
