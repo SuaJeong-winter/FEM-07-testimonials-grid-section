@@ -1,0 +1,70 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* color */
+  --Purple1: hsl(260, 100%, 95%);
+  --Purple30: hsl(264, 82%, 80%);
+  --Purple50: hsl(263, 55%, 52%);
+
+  --White: hsl(0, 0%, 100%);
+  --Grey10: hsl(214, 17%, 92%);
+  --Grey20: hsl(0, 0%, 81%);
+  --Grey40: hsl(224, 10%, 45%);
+  --Grey50: hsl(217, 19%, 35%);
+  --Darkblue: hsl(219, 29%, 14%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+.grid__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.grid__card {
+  background-color: var(--Black);
+}
+
+.card__one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.card__two {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.card__three {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.card__four {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.card__five {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
