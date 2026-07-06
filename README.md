@@ -60,8 +60,6 @@ Maybe...making the layout more adaptive across different device sizes?
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
 - What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)? github copilot, chat gpt
 - How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)? debugging, brainstorming solutions
 - What worked well? What didn't? It worked well
