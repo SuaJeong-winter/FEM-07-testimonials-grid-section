@@ -28,20 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/testimonial_grid_desktop.png)
+![](./images/testimonial_grid_mobile.gif)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/SuaJeong-winter/FEM-07-testimonials-grid-section)
-- Live Site URL: [Add live site URL here](https://suajeong-winter.github.io/FEM-07-testimonials-grid-section/)
+- Solution URL: [solution URL](https://github.com/SuaJeong-winter/FEM-07-testimonials-grid-section)
+- Live Site URL: [live site URL](https://suajeong-winter.github.io/FEM-07-testimonials-grid-section/)
 
 ## My process
 
@@ -59,7 +52,6 @@ I learned Grid and Flexbox by reading several docs, videos and practicing exampl
 ### Continued development
 
 Maybe...making the layout more adaptive across different device sizes?
-디바이스 크기에 따른 레이아웃 더 다양화하기
 
 ### Useful resources
 
