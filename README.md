@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/SuaJeong-winter/FEM-07-testimonials-grid-section)
-- Live Site URL: [live site URL](https://suajeong-winter.github.io/FEM-07-testimonials-grid-section/)
+- Solution URL: [solution](https://github.com/SuaJeong-winter/FEM-07-testimonials-grid-section)
+- Live Site URL: [live site](https://suajeong-winter.github.io/FEM-07-testimonials-grid-section/)
 
 ## My process
 
